@@ -7,17 +7,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/*Customer*/
-
-
-.navBack {
-	text-align: left;
-	width: 50%;
-}
-.navNext {
-	width: 50%;
-	text-align: right;
-}
 
 /*Pre-Made*/
 
@@ -1303,6 +1292,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			background-image: url(./../../images/moon.jpg);
+			background-size: cover;
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -1671,4 +1662,21 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		/*Custom*/
+
+		#skills-list i {
+		            font-size: 115%;
+								margin: 0 5px;
+		            display: inline;
+		        }
+
+		.navBack {
+			text-align: left;
+			width: 50%;
+		}
+		.navNext {
+			width: 50%;
+			text-align: right;
 		}
