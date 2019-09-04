@@ -199,6 +199,7 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+			display: inline;
 		}
 
 	h1 {
@@ -1523,7 +1524,7 @@ input, select, textarea {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
-		align-items: center;
+	 	align-items: center;
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
@@ -1679,4 +1680,5 @@ input, select, textarea {
 		.navNext {
 			width: 50%;
 			text-align: right;
+			display: inline;
 		}
