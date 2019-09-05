@@ -651,7 +651,7 @@ input, select, textarea {
 		.image:before {
 			pointer-events: none;
 			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			/* background-color: rgba(19, 21, 25, 0.5); */
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -1667,11 +1667,48 @@ input, select, textarea {
 
 		/*Custom*/
 
+		/* .notes-and-log-in {
+			text-align: center;
+			width: 45%;
+			float: left;
+			margin: 2.5%;
+		}
+
+		.time-and-tech {
+			text-align: center;
+			width: 45%;
+			float: right;
+			margin: 2.5%;
+		}
+
+		.time-and-tech ul, .notes-and-log-in ul {
+			list-style-type: none;
+		} */
+
+		#skills-img {
+			width: 50%;
+			float: right;
+			display: block;
+			border: 1px solid #ddd;
+			padding: 5px;
+			margin-left: 15px;
+		}
+
+		#about-me-img {
+			width: 50%;
+			float: right;
+			display: block;
+			border: 1px solid #ddd;
+		 	border-radius: 4px;
+		 	padding: 5px;
+			margin-left: 15px;
+		}
+
 		#skills-list i {
-		            font-size: 115%;
-								margin: 0 5px;
-		            display: inline;
-		        }
+	   	font-size: 115%;
+		 	margin: 0 5px;
+	   	display: inline;
+		}
 
 		.navBack {
 			text-align: left;
@@ -1681,4 +1718,20 @@ input, select, textarea {
 			width: 50%;
 			text-align: right;
 			display: inline;
+		}
+
+		.project-img-a {
+			border: 1px solid #ddd;
+			padding: 5px;
+			float: left;
+			width: 40%;
+			margin-right: 15px;
+		}
+
+		.project-img-b {
+			border: 1px solid #ddd;
+			padding: 5px;
+		}
+
+		#projects button {
 		}
